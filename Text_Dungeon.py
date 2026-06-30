@@ -13,7 +13,7 @@ if action1 == "A" :
 
 if action2 == "A" :
  print ("Good news, you killed half of the flock. Bad news, now the other half is out for revenge and your sword is damaged. How do you save yourself? A: Attack them with the remains of your sword. B: Grab a flaming torch from the wall and attack them with that")
- action2a= input("Choose your action: ") 
+ action2a = input("Choose your action: ") 
  if action2a == "A" :
   print ("Your sword broke and the bats killed you, sucks to be you, I guess.")
  if action2a == "B" :
@@ -54,7 +54,7 @@ if action4 == "B":
   action5b = input("Choose your action:")
   if action5b == "A":
    print("The moment your sword enters the dragon's body, it turns black and start smoking. The moment the draggon takes it's last breath, you stare in wonder, as your sword starts transforming into silver")
-   action6 == input("press A to advance:")
+   action6 = input("press A to advance:")
 
 if action4 == "C":
   print("You creep past the smoudering ruins inntovwhat once had been the throne room. You are so captivated by the remnants of a tapestry on the wall, that you don't notice the dragon that is now blocking the entry with it's massive body until too late. What do you do? A: Charge at him with your sword B: Hide behind the tapestry") 
@@ -66,7 +66,7 @@ if action4 == "C":
 
 if action6 == "A":
   print("You wander around the room, until you stumble upon a chest. Do you open it? A: Yes B: No")
-  action7 == input("Choose your action")
+  action7 = input("Choose your action")
 
 if action7 == "A":
   print("Inside the chest, you find a dwarf that introduces himself as Hypnos, the king of the West Corridors. He leads you to a distant underground township, where his friends and subjects through a banket in your favour. You are offered a cup of a strange poppy-red drink, do you drink it. A: Yes B: No")
